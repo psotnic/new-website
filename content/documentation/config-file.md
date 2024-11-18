@@ -74,6 +74,9 @@ Depending on the content of the configuration file psotnic will act as the main 
 |cyclereason	|cycle reason|
 |bnc	|ip, port, pass of the bnc (only BNC from http://www.gotbnc.com is supported)|
 |router|	ip, port, pass of the router (only cisco routers are supported)|
+| sasl-mechanism | SASL mechanism<ul><li>1 - PLAIN</li><li>2 - EXTERNAL</li><li>3 - SCRAM-SHA-1</li><li>4 - SCRAM-SHA-256</li><li>5 - SCRAM-SHA-512</ul> |
+| sasl-username | SASL username |
+| sasl-password | SASL password |
 
 ### Additional options for all bots, those options can be set more than once.
 
