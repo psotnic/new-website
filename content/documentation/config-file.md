@@ -74,7 +74,7 @@ Depending on the content of the configuration file psotnic will act as the main 
 |cyclereason	|cycle reason|
 |bnc	|ip, port, pass of the bnc (only BNC from http://www.gotbnc.com is supported)|
 |router|	ip, port, pass of the router (only cisco routers are supported)|
-| sasl-mechanism | SASL mechanism<ul><li>1 - PLAIN</li><li>2 - EXTERNAL</li><li>3 - SCRAM-SHA-1</li><li>4 - SCRAM-SHA-256</li><li>5 - SCRAM-SHA-512</ul> |
+| sasl-mechanism | SASL mechanism.<br>Available options:<br>0 - disabled<br>1 - PLAIN<br>2 - EXTERNAL<br>3 - SCRAM-SHA-1<br>4 - SCRAM-SHA-256<br>5 - SCRAM-SHA-512 |
 | sasl-username | SASL username |
 | sasl-password | SASL password |
 
